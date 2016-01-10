@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    >
+    <!--
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/zomato"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/item_background"/>-->
+
+
+    <!-- <it.gmariotti.cardslib.library.view.CardViewNative
+         android:layout_width="200dp"
+         android:layout_height="181dp"
+         android:paddingLeft="@dimen/carddemo_list_padding"
+         android:paddingRight="@dimen/carddemo_list_padding"
+         card:list_card_layout_resourceID="@layout/native_recyclerview_material_card_layout"
+         />-->
+
+
+    <it.gmariotti.cardslib.library.view.CardViewNative
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        card:card_layout_resourceID="@layout/native_card_thumbnail_layout"
+        android:id="@+id/carddemo_recyclerview_tdp"
+        android:background="@drawable/zomato"
+        />
+
+
+</LinearLayout>
